@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import SHOP_DATA from '../../data/shop.data';
+import './Shop.scss';
 import CollectionPreview from '../../components/CollectionPreview/CollectionPreview';
 
 class Shop extends Component {
@@ -13,9 +14,7 @@ class Shop extends Component {
   render() {
     const { collections } = this.state;
     return (
-      <div>
-        <h1> SHOP PAGE </h1>
-        <div className="shop-page">
+      <div className="shop-page">
           {collections.map((collection) => {
             return (
               <CollectionPreview
@@ -25,7 +24,6 @@ class Shop extends Component {
               />
             );
           })}
-        </div>
       </div>
     );
   }

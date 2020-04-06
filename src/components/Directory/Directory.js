@@ -9,19 +9,22 @@ class Directory extends Component {
       sections: [
         {
           title: 'hats',
-          imageUrl: 'https://i.ibb.co/cvpntL1/hats.png',
+					imageUrl: 'https://i.ibb.co/cvpntL1/hats.png',
+					size: 'small',
           id: 1,
           linkUrl: 'hats',
         },
         {
           title: 'jackets',
-          imageUrl: 'https://i.ibb.co/px2tCc3/jackets.png',
+					imageUrl: 'https://i.ibb.co/px2tCc3/jackets.png',
+					size: 'small',
           id: 2,
           linkUrl: 'jackets',
         },
         {
           title: 'sneakers',
-          imageUrl: 'https://i.ibb.co/0jqHpnp/sneakers.png',
+					imageUrl: 'https://i.ibb.co/0jqHpnp/sneakers.png',
+					size: 'small',
           id: 3,
           linkUrl: 'sneakers',
         },
