@@ -33,6 +33,7 @@ class SignIn extends Component {
 
 		return (
 			<div className="sign-in">
+				SIGN IN
 				<h2 className="title">I already have an account</h2>
 				<span>Sign in with your email and password</span>
 				<form onSubmit={this.handleSubmit}>

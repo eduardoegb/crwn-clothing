@@ -55,6 +55,7 @@ class SignUp extends Component {
 
 		return (
 			<div className='sign-up'>
+				SIGN UP
 				<h2 className='title'>I do not have an account</h2>
 				<span>Sign up with your email and password</span>
 				<form className='sign-up-form' onSubmit={this.handleSubmit}>
