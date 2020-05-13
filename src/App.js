@@ -10,6 +10,7 @@ import { auth, createUserProfileDoc } from './firebase/firebase';
 class App extends Component {
 	constructor() {
 		super();
+		
 		this.state = {
 			currentUser: null
 		}
